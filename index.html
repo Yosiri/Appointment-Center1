@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Appointment Center</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 </head>
 <body>
     <div class="container">
@@ -40,6 +41,7 @@
                     <br>
                     <button type="submit" id="signup-submit-btn">Sign Up</button>
                 </form>
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
             </div>
         </div>
     </div>
